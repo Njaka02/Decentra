@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(25, 24, 24);
+}
+
+header {
+    height: 50px;
+    width:  auto;
+    margin: 2em 15em;
+    position: relative;
+} 
+
+.zero {
+    float: left;
+    font-size: 2rem;
+}
+
+nav {
+    float: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+div nav ul li{
+    display: inline;
+    padding: 0.3em;
+    font-size: 15px;
+    font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.un-0 {
+    margin-left: 5em;
+}
+
+
+.deux {
+    display: flex;
+    align-items: center;
+    margin: 0 15em 0em 15em;
+    justify-content: space-between;
+}
+.deux-00 {
+    width: 600px;
+    color: white;
+}
+
+
+.deux-0 {
+    font-size: 4em;
+    margin-bottom: 3rem;
+}
+
+.deux-1 {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.deux-2 {
+    background: radial-gradient(circle, rgba(255, 71, 185, 0.5), transparent);
+    opacity: 0.5;
+    
+}
+.image {
+    float: right;
+    width: 20rem;
+    height: 30rem;
+}
+
+.deux-2 img {
+    filter: drop-shadow(2px 2px 20px cyan);
+}
+
+.btn-get {
+    padding: 1em;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    background: linear-gradient(to right, rgb(173, 133, 58), rgb(226, 142, 226), rgb(22, 156, 234)) ;
+    border-image: linear-gradient(to right, rgb(173, 133, 58), rgb(226, 142, 226), rgb(22, 156, 234));
+}
+
+.trois {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid transparent; /* Bordure transparente pour activer l'image de bordure */
+    border-bottom: 1px solid transparent; /* Bordure transparente pour activer l'image de bordure */
+    border-image: linear-gradient(to right, rgb(173, 133, 58), rgb(226,    142, 226), rgb(22, 156, 234)) 1;
+}
+
+.trois p {
+    /*padding: 0.5rem;*/
+    font-size: 1.5rem;
+    color: transparent; /* Rendre le texte transparent */
+    background: linear-gradient(to right, rgb(173, 133, 58), rgb(226, 142, 226), rgb(22, 156, 234)); /* Dégradé de fond */
+    -webkit-background-clip: text;
+}
+
+.p-border1 {
+    padding: 0.5rem 8rem;
+    border-right: 1px solid transparent; /* Bordure transparente pour activer l'image de bordure */
+    border-image: linear-gradient(to top, rgb(173, 133, 58), rgb(226,    142, 226), rgb(22, 156, 234)) 1;
+}
+
+.p-border1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.p-border2 {
+    padding: 0.5rem 8rem;
+}
+.p-border3 {
+    padding: 0.5rem 8rem;
+    border-left: 1px solid transparent; /* Bordure transparente pour activer l'image de bordure */
+    border-image: linear-gradient(to top, rgb(173, 133, 58), rgb(226,    142, 226), rgb(22, 156, 234)) 1;
+}
