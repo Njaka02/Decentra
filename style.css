@@ -5,6 +5,8 @@
 
 body {
     background-color: rgb(25, 24, 24);
+    font-family: "Nunito", sans-serif;
+    height: auto;
 }
 
 header {
@@ -19,6 +21,13 @@ header {
     font-size: 2rem;
 }
 
+.zero img {
+    width: 2rem;
+    float: left;
+    height: 2rem;
+    padding: 0 1rem;
+}
+
 nav {
     float: right;
 }
@@ -30,16 +39,13 @@ a {
 
 div nav ul li{
     display: inline;
-    padding: 0.3em;
     font-size: 15px;
     font-weight: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .un-0 {
     margin-left: 5em;
 }
-
 
 .deux {
     display: flex;
@@ -52,7 +58,6 @@ div nav ul li{
     color: white;
 }
 
-
 .deux-0 {
     font-size: 4em;
     margin-bottom: 3rem;
@@ -63,11 +68,6 @@ div nav ul li{
     margin-bottom: 3rem;
 }
 
-.deux-2 {
-    background: radial-gradient(circle, rgba(255, 71, 185, 0.5), transparent);
-    opacity: 0.5;
-    
-}
 .image {
     float: right;
     width: 20rem;
@@ -75,7 +75,7 @@ div nav ul li{
 }
 
 .deux-2 img {
-    filter: drop-shadow(2px 2px 20px cyan);
+    filter: drop-shadow(2px 2px 20px rgb(22, 156, 234));
 }
 
 .btn-get {
@@ -99,28 +99,110 @@ div nav ul li{
 
 .trois p {
     /*padding: 0.5rem;*/
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: transparent; /* Rendre le texte transparent */
     background: linear-gradient(to right, rgb(173, 133, 58), rgb(226, 142, 226), rgb(22, 156, 234)); /* Dégradé de fond */
     -webkit-background-clip: text;
 }
 
 .p-border1 {
-    padding: 0.5rem 8rem;
+    display: flex;
+    padding: 0.5rem 6rem;
     border-right: 1px solid transparent; /* Bordure transparente pour activer l'image de bordure */
     border-image: linear-gradient(to top, rgb(173, 133, 58), rgb(226,    142, 226), rgb(22, 156, 234)) 1;
 }
 
 .p-border1 img {
-    width: 50px;
-    height: 50px;
+    width: 2rem;
+    float: left;
+    height: 2rem;
+    padding: 0 1rem;
 }
 
 .p-border2 {
-    padding: 0.5rem 8rem;
+    display: flex;
+    padding: 0.5rem 6rem;
 }
+
+.p-border2 img {
+    width: 2rem;
+    float: left;
+    height: 2rem;
+    padding: 0 1rem;
+}
+
 .p-border3 {
-    padding: 0.5rem 8rem;
+    display: flex;
+    padding: 0.5rem 6rem;
     border-left: 1px solid transparent; /* Bordure transparente pour activer l'image de bordure */
     border-image: linear-gradient(to top, rgb(173, 133, 58), rgb(226,    142, 226), rgb(22, 156, 234)) 1;
+}
+
+.p-border3 img {
+    width: 2rem;
+    float: left;
+    height: 2rem;
+    padding: 0 1rem;
+}
+
+.quatre {
+    margin: 5em 15em;
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.quatre h2 { 
+    width: 20em;
+    padding: 1em;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.quatre p {
+    width: 20em;
+    padding: 0 3rem 3rem  ;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+}
+
+.quatre img {
+    float: right;
+    filter: drop-shadow(2px 2px 20px rgb(22, 156, 234));
+}
+
+.cinq {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cinq-1 {
+    color: white;
+    width: 50%;
+    height: auto;
+    margin: 0 1rem 0 15em;
+    border: 1px solid white;
+    padding: 5rem;  
+}
+
+.cinq-2 {
+    color: white;
+    width: 50%;
+    height: auto;
+    margin: 0 15rem 0 1rem;
+    border: 1px solid white;  
+    padding: 3rem;
+    background-color: rgb(25, 24, 24);
+
+}
+
+.cinq h2 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.help {
+    text-align: center;
+    margin: 0 25rem;
+    font-size: 4em;
+    padding: 2em 0;
 }
