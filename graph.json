@@ -1,0 +1,55 @@
+{
+    "chart": {
+      "title": "Early stage",
+      "x_axis": {
+        "label": "TIME",
+        "unit": "units"
+      },
+      "y_axis": {
+        "label": "TRADING VOLUME",
+        "unit": "units"
+      },
+      "data_points": [
+        {
+          "time": 0,
+          "volume": 0,
+          "highlight": true,
+          "label": "01 Early stage"
+        },
+        {
+          "time": 1,
+          "volume": 1,
+          "highlight": true
+        },
+        {
+          "time": 2,
+          "volume": 2,
+          "highlight": false
+        },
+        {
+          "time": 3,
+          "volume": 4,
+          "highlight": false
+        },
+        {
+          "time": 4,
+          "volume": 6,
+          "highlight": false
+        },
+        {
+          "time": 5,
+          "volume": 9,
+          "highlight": false
+        },
+        {
+          "time": 6,
+          "volume": 12,
+          "highlight": false
+        }
+      ],
+      "line_properties": {
+        "color": "linear-gradient(90deg, #FF66C4, #8E8AFF)",
+        "width": 2
+      }
+    }
+  }

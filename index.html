@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="node_modules/chart.js/dist/chart.umd.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 <body>
     <!--<img src="image/graph_6_24dp_RGB(226,    142, 226)_FILL0_wght400_GRAD0_opsz24.pn" alt=""> -->
     
     <nav class="navbar">
-       <!-- <img src="image/graph_6_24dp_RGB(226,    142, 226)_FILL0_wght400_GRAD0_opsz24.png" alt="Logo">-->
+       <!-- <img src="image/graph_6_24dp_RGB(226, 142, 226)_FILL0_wght400_GRAD0_opsz24.png" alt="Logo">-->
         <a href="#" class="logo">Decentra</a>
         
         <div class="nav-links">
@@ -92,6 +93,39 @@
         <div class="help">
             <a href="#">How We Can Help Your Crypto Project</a>
         </div>
+
+       <footer>
+        <div class="graph">
+            <canvas id="graphique-tradingVolume" width="300" height="300"></canvas>
+        </div>
+
+        <div class="info">
+            <p class="early">Early stage</p>
+            <h2>
+                Early Stage VC <br> Funding
+            </h2>
+            <p class=" weinvest">
+                We invest in early stage high potential projects
+            </p>
+
+            <hr>
+            <p class="ourSelection">Our selection criteria</p>
+            
+            <ul>
+                <li>Tokenized projects</li>
+                <li>Supported by Crypto VCs</li>
+                <li>Exceptional Team with a Strong Vision, Technology</li>
+            </ul>
+            <div class="chevronLR">
+                <div class="division">
+                    <img src="image/chevron_left_24dp_666666_FILL0_wght400_GRAD0_opsz24.png" alt="" class="chevronLeft"><p>01/07</p>
+                </div>
+                <div class="nextStage">
+                    <p>next stage<img src="image/chevron_right_24dp_666666_FILL0_wght400_GRAD0_opsz24.png" alt="" class="chevronRight"></p>
+                </div>
+            </div>
+        </div>
+       </footer>
 
 
     </main>
