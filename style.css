@@ -211,8 +211,8 @@ header {
 }
 
 .bitcoin-Illustrator img {
-    float: right;
     width: 48%;
+    float: right;
     filter: drop-shadow(2px 2px 20px rgb(22, 156, 234));
 }
 
@@ -267,7 +267,7 @@ footer {
 }
 
 .graph {
-    width: 35%;
+    width: 50%;
     height: auto;
 }
 
@@ -482,8 +482,8 @@ footer {
     .p-border2,
     .p-border3
     {
-        margin-bottom: 0.5rem;
         padding: 0;
+        margin-bottom: 0.5rem;
         justify-content: space-evenly;
         border: 1px solid transparent;
         border-image: linear-gradient(to right, rgb(173, 133, 58), rgb(226,    142, 226), rgb(22, 156, 234)) 1;
@@ -505,13 +505,13 @@ footer {
     .bitcoin-Illustrator p {
         width: auto;
         font-size: 1rem;
-        padding: 0 1rem 1rem 1rem;
         text-align: justify;
+        padding: 0 1rem 1rem 1rem;
     }
 
     .trading-all {
-        height: auto;
         width: 100%;
+        height: auto;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -525,23 +525,23 @@ footer {
     .tradingOver {
         width: auto;
         padding: 1rem;
-        margin: 0.5rem 0.5rem;
         text-align: justify;
+        margin: 0.5rem 0.5rem;
     }
 
     .trustedExchange {
-        width: auto;
         margin: 0;
+        width: auto;
         padding: 1rem;
-        margin: 0.5rem 0.5rem;
         text-align: justify;
+        margin: 0.5rem 0.5rem;
     }
 
     .help {
-        text-align: center;
         margin: 0;
         font-size: 2em;
         padding: 2em 0;
+        text-align: center;
     }
 
     footer {
@@ -610,11 +610,11 @@ footer {
 
     
     footer {
+        margin: 0;
+        padding: 0;
         height: 35em;
         display: flex;
         flex-direction: row;
-        margin: 0;
-        padding: 0;
     }
 
     .graph {
@@ -682,11 +682,11 @@ footer {
     }
     
     footer {
+        margin: 0;
+        padding: 0;
         height: 60em;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
     }
     
     .graph {
@@ -735,11 +735,11 @@ footer {
     }
     
     footer {
+        margin: 0;
+        padding: 0;
         height: 60em;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
     }
     
     .graph {
@@ -793,11 +793,11 @@ footer {
     }
 
     footer {
+        margin: 0;
+        padding: 0;
         height: 60em;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
     }
 
     .graph {
@@ -892,11 +892,11 @@ footer {
     }
 
     footer {
+        margin: 0;
+        padding: 0;
         height: 45em;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
     }
 
     .graph {
@@ -962,11 +962,11 @@ footer {
     }
 
     footer {
+        margin: 0;
+        padding: 0;
         height: 45em;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
     }
 
     .graph {
@@ -1036,11 +1036,11 @@ footer {
     }
 
     footer {
+        margin: 0;
+        padding: 0;
         height: 45em;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
     }
 
     .graph {
@@ -1069,9 +1069,9 @@ footer {
     .navbar .nav-links ul li {
         margin: 1em 0;
         font-size: 1em; 
+        flex-wrap: wrap;
         font-weight: bold;
         padding: 0 0.4rem 0 0.2rem;
-        flex-wrap: wrap;
     }
 
     .navbar .nav-links ul li .contactUs {
