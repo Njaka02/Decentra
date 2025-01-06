@@ -211,7 +211,7 @@ header {
 }
 
 .bitcoin-Illustrator img {
-    width: 48%;
+    width: 40%;
     float: right;
     filter: drop-shadow(2px 2px 20px rgb(22, 156, 234));
 }
@@ -373,7 +373,12 @@ footer {
 
 
 
-
+@media screen and (min-width: 1600px ) {
+    .bitcoin-Illustrator img {
+        width: 30em;
+        height: 24em;
+    }
+}
 
 @media screen and (max-width: 1300px ) {
 
