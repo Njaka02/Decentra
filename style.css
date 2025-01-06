@@ -941,7 +941,7 @@ footer {
      }
 }
 
-@media screen and (max-width: 450px ) {
+@media screen and (max-width: 450px) {
     /* NavBar */
 
     .nav-links ul {
@@ -1017,7 +1017,7 @@ footer {
      }
 }
 
-@media screen and (max-width: 391px ) {
+@media screen and (max-width: 412) and (min-width: 391px) {
     /* NavBar */
 
     .nav-links ul {
