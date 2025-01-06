@@ -567,6 +567,11 @@ footer {
     .navbar .nav-links ul li .contactUs {
         margin-left: 0rem;
     }
+
+    .bitcoin-Illustrator img {
+        height: 11rem;
+        width: 11rem;
+    }
 }
 
 @media screen and (max-width: 1181px ) {
@@ -586,6 +591,11 @@ footer {
 
     .navbar .nav-links ul li .contactUs {
         margin-left: 0rem;
+    }
+
+    .bitcoin-Illustrator img {
+        height: 10.5rem;
+        width: 10rem;
     }
 
     footer {
@@ -675,7 +685,7 @@ footer {
         margin: 1em 0;
         font-size: 1.2em; 
         font-weight: bold;
-        padding: 0 1rem 0 0.5rem;
+        padding: 0 2rem 0 0.5rem;
     }
     .navbar .nav-links ul li .contactUs {
         margin-right: 3em;
@@ -687,6 +697,11 @@ footer {
         height: 60em;
         display: flex;
         flex-direction: column;
+    }
+
+    .bitcoin-Illustrator img {
+        height: 13rem;
+        width: 13rem;
     }
     
     .graph {
@@ -732,6 +747,11 @@ footer {
 
     .navbar .nav-links ul li .contactUs {
         margin-left: 15em;
+    }
+
+    .bitcoin-Illustrator img {
+        height: 13rem;
+        width: 13rem;
     }
     
     footer {
@@ -862,7 +882,7 @@ footer {
     }
 
     .navbar .nav-links ul li .contactUs {
-        margin-left: 15rem;
+        margin-left: 14rem;
     }
 }
 
@@ -939,6 +959,7 @@ footer {
     
     .navbar .nav-links ul li .contactUs {
         margin-right: 1em;
+        margin-left: 7rem;
     }
 
     .p-border1 p {
@@ -959,6 +980,11 @@ footer {
     .p-border2,
     .p-border3 {
         margin: 0.25rem 1rem;
+    }
+
+    .bitcoin-Illustrator img {
+        height: 9rem;
+        width: 10rem;
     }
 
     footer {
@@ -1008,7 +1034,7 @@ footer {
     }
 
     .navbar .nav-links ul li .contactUs {
-        margin-left: 8rem;
+        margin-left: 1rem;
     }
     
     .p-border1 p {
@@ -1033,6 +1059,11 @@ footer {
     .p-border2,
     .p-border3 {
         margin: 0.25rem 0;
+    }
+
+    .bitcoin-Illustrator img {
+        height: 8rem;
+        width: 8rem;
     }
 
     footer {
@@ -1076,5 +1107,10 @@ footer {
 
     .navbar .nav-links ul li .contactUs {
         margin-left: 7em;
+    }
+
+    .bitcoin-Illustrator img {
+        height: 7rem;
+        width: 7rem;
     }
 }
