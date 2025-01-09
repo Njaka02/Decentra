@@ -73,8 +73,8 @@ header {
 }
 
 .nav-links ul .contactUs {
-    list-style: none; /* Supprimer les puces par défaut */
     padding: 0;
+    list-style: none; /* Supprimer les puces par défaut */
 }
 
 .nav-links ul li .contactUs {
@@ -84,13 +84,13 @@ header {
 
 .nav-links .contactUs::before {
     content: ''; /* Création de la puce */
-    position: absolute;
     left: 0;
     top: 5px;
     width: 10px;
     height: 10px;
-    background: linear-gradient(45deg, rgb(173, 133, 58), rgb(226, 142, 226), rgb(22, 156, 234));
+    position: absolute;
     border-radius: 50%; /* Rend la puce ronde */
+    background: linear-gradient(45deg, rgb(173, 133, 58), rgb(226, 142, 226), rgb(22, 156, 234));
 }
 
 .weProvide-Entrust {
